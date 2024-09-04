@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     const elementoTitulo = document.getElementById('titulo-h1');
     const elementoParagrafo = document.getElementById('paragrafo');
-    const textoTitulo = "Olá 👋 meu nome é Bruno!";
+    const textoTitulo = "Olá 👋<br> meu nome é Bruno!";
     const textoParagrafo = "Back-End Developer";
     const intervalo = 150;
     const tempoVisivel = 2000; // Tempo que o texto ficará visível antes de reiniciar o loop (em milissegundos)
